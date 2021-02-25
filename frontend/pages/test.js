@@ -12,12 +12,9 @@ export default function IndexPage() {
     //Use flex-col to position flex items vertically:
     <div>
     <div className="flex-1 flex-col items-center justify-center space-y-12 max-w-4xl mr-3">
-      <About />
       <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 md:grid-cols-2">
         <Box />
-        {/* <Box /> */}
       </div>
-      <Window />
     </div>
     </div>
   );

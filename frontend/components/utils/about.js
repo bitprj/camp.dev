@@ -2,7 +2,7 @@ import Button from '@components/utils/about'
 
 export default function About() {
     return (
-        <div class="flex flex-col md:flex-row-reverse max-w-2xl m-10">
+        <div class="flex flex-col md:flex-row-reverse max-w-2xl">
             <div>
                 <img src="/camp.png" />
             </div>
