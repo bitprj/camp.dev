@@ -3,6 +3,8 @@ import Button from "@components/utils/button.js";
 import Box from "@components/utils/box"
 import About from "@components/utils/about"
 import Layout from "@components/layout"
+import Window from "@components/window"
+
 
 export default function IndexPage() {
   return (
@@ -16,6 +18,7 @@ export default function IndexPage() {
         <Box />
         <Box />
       </div>
+      <Window />
     </div>
     </Layout>
   );

@@ -1,6 +1,6 @@
 import Header from "./header";
 import Footer from "./footer";
-import Menu from "@components/menu"
+import Menu from "@components/menu";
 
 export default function Layout(props) {
   return (
