@@ -16,7 +16,6 @@ export default function Schedule() {
            <Event />
            </div>
            </div>
-        
         </div>
     );
 }
