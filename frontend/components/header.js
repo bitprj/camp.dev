@@ -7,7 +7,7 @@ export default function Header() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <header className="bg-green-600">
+    <header className="bg-white">
       <div className="flex flex-wrap items-center justify-between lg:container px-4 py-6 mx-auto md:flex-no-wrap md:px-6">
         <div className="flex items-center">
           <Image
@@ -19,14 +19,14 @@ export default function Header() {
           />
 
           <Link href="/">
-            <a className="text-lg md:text-xl font-bold ml-3 text-white">
-              Daniel and Shreya do it
+            <a className="text-lg md:text-xl font-bold ml-3 text-black">
+              Daniel, Shreya and Pachi do it
             </a>
           </Link>
         </div>
 
         <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+          className="flex items-center block px-3 py-2 text-black border border-black rounded md:hidden"
           onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)}
         >
           <svg
@@ -48,10 +48,11 @@ export default function Header() {
           {[
             { title: "Home", route: "/" },
             { title: "About", route: "/about" },
+            {title: "Pachi", route: "/pachi"}
           ].map(({ route, title }) => (
             <li className="mt-3 md:mt-0 md:ml-6" key={title}>
               <Link href={route}>
-                <a className="block text-white">{title}</a>
+                <a className="block text-black">{title}</a>
               </Link>
             </li>
           ))}
